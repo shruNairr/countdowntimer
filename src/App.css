@@ -1,0 +1,64 @@
+.App {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-image: url('abstract-textured-backgound.jpg');
+background-size: cover;
+background-position: center;
+color: antiquewhite;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.First {
+    word-spacing: 6px;
+    letter-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    font-size: large;
+    font-weight: 800;
+    text-align: center;
+}
+.Second { 
+    word-spacing: 60px;
+    color: rgb(243, 13, 13);
+    width: 50%;
+    height: 150%;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    height: 115px;
+}
+.Third {
+    word-spacing: 15px;
+    color:aliceblue;
+    font-weight: 400;
+    font-size: large;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.IconImage1 {
+    display: inline-block;
+    line-height: 1.5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('C:\react project\countdowntimer\src\icons8-facebook-48.png');
+    image-rendering: auto;
+}
+.IconImage2 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('C:\react project\countdowntimer\src\icons8-instagram-48.png');
+    image-rendering: auto;
+}
+.IconImage3 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('C:\react project\countdowntimer\src\icons8-twitter-48.png');
+}
+
+
+/*simple style to center everything in the screen */
